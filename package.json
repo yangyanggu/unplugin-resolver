@@ -1,0 +1,53 @@
+{
+  "name": "@vuemap/unplugin-resolver",
+  "version": "1.0.0",
+  "description": "unplugin-vue-components resolvers for @vuemap/vue-amap vue-bmap-gl vue-mapvgl",
+  "keywords": [
+    "@vuemap/vue-amap",
+    "vue-bmap-gl",
+    "vue-mapvgl",
+    "unplugin-vue-components"
+  ],
+  "files": [
+    "dist",
+    "*.d.ts",
+    "package.json"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./*": "./*"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "repository": "git@gitee.com:guyangyang/unplugin-resolver.git",
+  "author": "guyangyang <407042815@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitee.com/guyangyang/unplugin-resolver/issues"
+  },
+  "homepage": "https://gitee.com/guyangyang/unplugin-resolver",
+  "scripts": {
+    "build": "tsup src/*.ts",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint --ext .js,.ts,.tsx ."
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "eslint": "^8.7.0",
+    "tsup": "5.7.4",
+    "typescript": "^4.5.4",
+    "unplugin-vue-components": "^0.17.14"
+  },
+  "peerDependencies": {
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
