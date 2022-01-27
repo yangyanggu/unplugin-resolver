@@ -1,6 +1,6 @@
 {
   "name": "@vuemap/unplugin-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "unplugin-vue-components resolvers for @vuemap/vue-amap vue-bmap-gl vue-mapvgl",
   "keywords": [
     "@vuemap/vue-amap",
