@@ -1,4 +1,8 @@
 # @vuemap/unplugin-resolver
+[![npm (tag)](https://img.shields.io/npm/v/@vuemap/unplugin-resolver)](https://www.npmjs.org/package/@vuemap/unplugin-resolver)
+[![NPM downloads](http://img.shields.io/npm/dm/@vuemap/unplugin-resolver.svg)](https://npmjs.org/package/@vuemap/unplugin-resolver)
+![JS gzip size](http://img.badgesize.io/https://unpkg.com/@vuemap/unplugin-resolver?compression=gzip&label=gzip%20size:%20JS)
+[![NPM](https://img.shields.io/npm/l/@vuemap/unplugin-resolver)](https://gitee.com/guyangyang/unplugin-resolver)
 
 unplugin-vue-components的resolvers，已经将地图组件增加上去，目前支持@vuemap/vue-amap、vue-bmap-gl、vue-mapvgl
 
