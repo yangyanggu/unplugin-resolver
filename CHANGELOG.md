@@ -1,4 +1,7 @@
-### 1.0.1
+### 1.0.3
+修改package.json中的types字段指向
+
+### 1.0.2
 增加peerDependencies限制，依赖unplugin-vue-components@0.17.15之后的版本
 
 ### 1.0.1

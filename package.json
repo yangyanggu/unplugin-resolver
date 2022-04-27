@@ -1,6 +1,6 @@
 {
   "name": "@vuemap/unplugin-resolver",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "unplugin-vue-components resolvers for @vuemap/vue-amap vue-bmap-gl vue-mapvgl",
   "keywords": [
     "@vuemap/vue-amap",
@@ -22,7 +22,7 @@
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "repository": "git@gitee.com:guyangyang/unplugin-resolver.git",
   "author": "guyangyang <407042815@qq.com>",
   "license": "MIT",
