@@ -23,13 +23,13 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "repository": "git@gitee.com:guyangyang/unplugin-resolver.git",
+  "repository": "https://github.com/yangyanggu/unplugin-resolver.git",
   "author": "guyangyang <407042815@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitee.com/guyangyang/unplugin-resolver/issues"
+    "url": "https://github.com/yangyanggu/unplugin-resolver/issues"
   },
-  "homepage": "https://gitee.com/guyangyang/unplugin-resolver",
+  "homepage": "https://github.com/yangyanggu/unplugin-resolver",
   "scripts": {
     "build": "tsup src/*.ts",
     "prepublishOnly": "npm run build",
