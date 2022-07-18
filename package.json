@@ -1,6 +1,6 @@
 {
   "name": "@vuemap/unplugin-resolver",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "unplugin-vue-components resolvers for @vuemap/vue-amap vue-bmap-gl vue-mapvgl",
   "keywords": [
     "@vuemap/vue-amap",
@@ -46,7 +46,7 @@
     "unplugin-vue-components": "^0.17.15"
   },
   "peerDependencies": {
-    "unplugin-vue-components": "^0.17.15"
+    "unplugin-vue-components": ">=0.17.15"
   },
   "engines": {
     "node": ">=14"

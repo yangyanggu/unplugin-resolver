@@ -1,3 +1,6 @@
+### 1.0.4
+解决peerDependencies依赖告警问题
+
 ### 1.0.3
 修改package.json中的types字段指向
 
