@@ -15,6 +15,19 @@ function resolveComponent(name: string, options: MapResolverOptions): ComponentI
   if (!name.match(/^ElAmap[A-Z]*/))
     return
 
+  if (name.match(/^ElAmapLoca[A-Z]*/)) {
+    return {
+      importName: name,
+      path: '@vuemap/vue-amap-loca/es',
+    }
+  }
+  else if (name.match(/^ElAmap[a-zA-Z]*Three[A-Z]*/)) {
+    return {
+      importName: name,
+      path: '@vuemap/vue-amap-extra/es',
+    }
+  }
+
   return {
     importName: name,
     path: '@vuemap/vue-amap/es',

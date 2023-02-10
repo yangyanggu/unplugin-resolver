@@ -1,3 +1,6 @@
+### 2.0.0
+* 适配@vuemap/vue-amap 2.0.0版本
+
 ### 1.0.4
 解决peerDependencies依赖告警问题
 
