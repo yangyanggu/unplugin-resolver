@@ -1,3 +1,6 @@
+### 2.0.1
+* [Add exports types](https://github.com/yangyanggu/unplugin-resolver/pull/1)
+
 ### 2.0.0
 * 适配@vuemap/vue-amap 2.0.0版本
 
